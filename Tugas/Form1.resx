@@ -1,0 +1,1083 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblJudul.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13.8pt, style=Bold</value>
+  </data>
+  <data name="lblJudul.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 9</value>
+  </data>
+  <data name="lblJudul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 62</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblJudul.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblJudul.Text" xml:space="preserve">
+    <value>Formulir Pendaftaran Siswa Baru Tahun 2022</value>
+  </data>
+  <data name="lblJudul.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblJudul.Name" xml:space="preserve">
+    <value>lblJudul</value>
+  </data>
+  <data name="&gt;&gt;lblJudul.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblJudul.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblJudul.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblNoPendaftaran.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNoPendaftaran.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 33</value>
+  </data>
+  <data name="lblNoPendaftaran.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="lblNoPendaftaran.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblNoPendaftaran.Text" xml:space="preserve">
+    <value>No. Pendaftaran</value>
+  </data>
+  <data name="&gt;&gt;lblNoPendaftaran.Name" xml:space="preserve">
+    <value>lblNoPendaftaran</value>
+  </data>
+  <data name="&gt;&gt;lblNoPendaftaran.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoPendaftaran.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblNoPendaftaran.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblNamaLengkap.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNamaLengkap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 73</value>
+  </data>
+  <data name="lblNamaLengkap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 20</value>
+  </data>
+  <data name="lblNamaLengkap.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblNamaLengkap.Text" xml:space="preserve">
+    <value>Nama Lengkap</value>
+  </data>
+  <data name="&gt;&gt;lblNamaLengkap.Name" xml:space="preserve">
+    <value>lblNamaLengkap</value>
+  </data>
+  <data name="&gt;&gt;lblNamaLengkap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNamaLengkap.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblNamaLengkap.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblAlamatLengkap.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblAlamatLengkap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAlamatLengkap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 111</value>
+  </data>
+  <data name="lblAlamatLengkap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="lblAlamatLengkap.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblAlamatLengkap.Text" xml:space="preserve">
+    <value>Alamat Lengkap</value>
+  </data>
+  <data name="&gt;&gt;lblAlamatLengkap.Name" xml:space="preserve">
+    <value>lblAlamatLengkap</value>
+  </data>
+  <data name="&gt;&gt;lblAlamatLengkap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAlamatLengkap.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblAlamatLengkap.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblNoHPWA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNoHPWA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNoHPWA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 186</value>
+  </data>
+  <data name="lblNoHPWA.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblNoHPWA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 20</value>
+  </data>
+  <data name="lblNoHPWA.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblNoHPWA.Text" xml:space="preserve">
+    <value>No HP/WA</value>
+  </data>
+  <data name="&gt;&gt;lblNoHPWA.Name" xml:space="preserve">
+    <value>lblNoHPWA</value>
+  </data>
+  <data name="&gt;&gt;lblNoHPWA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoHPWA.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblNoHPWA.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblJenisKelamin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblJenisKelamin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblJenisKelamin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 225</value>
+  </data>
+  <data name="lblJenisKelamin.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblJenisKelamin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 20</value>
+  </data>
+  <data name="lblJenisKelamin.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblJenisKelamin.Text" xml:space="preserve">
+    <value>Jenis Kelamin</value>
+  </data>
+  <data name="&gt;&gt;lblJenisKelamin.Name" xml:space="preserve">
+    <value>lblJenisKelamin</value>
+  </data>
+  <data name="&gt;&gt;lblJenisKelamin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblJenisKelamin.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblJenisKelamin.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblTempatLahir.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTempatLahir.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTempatLahir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 273</value>
+  </data>
+  <data name="lblTempatLahir.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblTempatLahir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 20</value>
+  </data>
+  <data name="lblTempatLahir.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblTempatLahir.Text" xml:space="preserve">
+    <value>Tempat Lahir</value>
+  </data>
+  <data name="&gt;&gt;lblTempatLahir.Name" xml:space="preserve">
+    <value>lblTempatLahir</value>
+  </data>
+  <data name="&gt;&gt;lblTempatLahir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTempatLahir.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblTempatLahir.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblAlamatEmail.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAlamatEmail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAlamatEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 346</value>
+  </data>
+  <data name="lblAlamatEmail.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblAlamatEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 20</value>
+  </data>
+  <data name="lblAlamatEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblAlamatEmail.Text" xml:space="preserve">
+    <value>Alamat Email</value>
+  </data>
+  <data name="&gt;&gt;lblAlamatEmail.Name" xml:space="preserve">
+    <value>lblAlamatEmail</value>
+  </data>
+  <data name="&gt;&gt;lblAlamatEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAlamatEmail.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblAlamatEmail.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblTglDaftar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTglDaftar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTglDaftar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 86</value>
+  </data>
+  <data name="lblTglDaftar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblTglDaftar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 20</value>
+  </data>
+  <data name="lblTglDaftar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblTglDaftar.Text" xml:space="preserve">
+    <value>Tanggal Daftar</value>
+  </data>
+  <data name="&gt;&gt;lblTglDaftar.Name" xml:space="preserve">
+    <value>lblTglDaftar</value>
+  </data>
+  <data name="&gt;&gt;lblTglDaftar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTglDaftar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTglDaftar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblData.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 38</value>
+  </data>
+  <data name="lblData.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 20</value>
+  </data>
+  <data name="lblData.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblData.Text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="&gt;&gt;lblData.Name" xml:space="preserve">
+    <value>lblData</value>
+  </data>
+  <data name="&gt;&gt;lblData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblData.Parent" xml:space="preserve">
+    <value>gBoxDataPendaftar</value>
+  </data>
+  <data name="&gt;&gt;lblData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
+    <value>btnReset</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnDaftar.Name" xml:space="preserve">
+    <value>btnDaftar</value>
+  </data>
+  <data name="&gt;&gt;btnDaftar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDaftar.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnDaftar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPerempuan.Name" xml:space="preserve">
+    <value>checkBoxPerempuan</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPerempuan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPerempuan.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPerempuan.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkBoxLaki2.Name" xml:space="preserve">
+    <value>checkBoxLaki2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxLaki2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxLaki2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxLaki2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;bxThn.Name" xml:space="preserve">
+    <value>bxThn</value>
+  </data>
+  <data name="&gt;&gt;bxThn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bxThn.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;bxThn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;bxBln.Name" xml:space="preserve">
+    <value>bxBln</value>
+  </data>
+  <data name="&gt;&gt;bxBln.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bxBln.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;bxBln.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;bxTgl.Name" xml:space="preserve">
+    <value>bxTgl</value>
+  </data>
+  <data name="&gt;&gt;bxTgl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bxTgl.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;bxTgl.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatLengkap.Name" xml:space="preserve">
+    <value>txtAlamatLengkap</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatLengkap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatLengkap.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatLengkap.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatEmail.Name" xml:space="preserve">
+    <value>txtAlamatEmail</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatEmail.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatEmail.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtTempatLahir.Name" xml:space="preserve">
+    <value>txtTempatLahir</value>
+  </data>
+  <data name="&gt;&gt;txtTempatLahir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTempatLahir.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtTempatLahir.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtNoHPWA.Name" xml:space="preserve">
+    <value>txtNoHPWA</value>
+  </data>
+  <data name="&gt;&gt;txtNoHPWA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNoHPWA.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtNoHPWA.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtNamaLengkap.Name" xml:space="preserve">
+    <value>txtNamaLengkap</value>
+  </data>
+  <data name="&gt;&gt;txtNamaLengkap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNamaLengkap.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtNamaLengkap.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtNoPendaftaran.Name" xml:space="preserve">
+    <value>txtNoPendaftaran</value>
+  </data>
+  <data name="&gt;&gt;txtNoPendaftaran.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNoPendaftaran.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtNoPendaftaran.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblTglLahir.Name" xml:space="preserve">
+    <value>lblTglLahir</value>
+  </data>
+  <data name="&gt;&gt;lblTglLahir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTglLahir.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblTglLahir.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 74</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 511</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnClose.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="btnClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 426</value>
+  </data>
+  <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnReset.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="btnReset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 426</value>
+  </data>
+  <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="btnReset.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>RESET</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
+    <value>btnReset</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnDaftar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="btnDaftar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 426</value>
+  </data>
+  <data name="btnDaftar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="btnDaftar.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnDaftar.Text" xml:space="preserve">
+    <value>DAFTAR</value>
+  </data>
+  <data name="&gt;&gt;btnDaftar.Name" xml:space="preserve">
+    <value>btnDaftar</value>
+  </data>
+  <data name="&gt;&gt;btnDaftar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDaftar.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnDaftar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBoxPerempuan.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxPerempuan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 225</value>
+  </data>
+  <data name="checkBoxPerempuan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 24</value>
+  </data>
+  <data name="checkBoxPerempuan.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="checkBoxPerempuan.Text" xml:space="preserve">
+    <value>Perempuan</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPerempuan.Name" xml:space="preserve">
+    <value>checkBoxPerempuan</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPerempuan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPerempuan.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPerempuan.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBoxLaki2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxLaki2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 225</value>
+  </data>
+  <data name="checkBoxLaki2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="checkBoxLaki2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="checkBoxLaki2.Text" xml:space="preserve">
+    <value>Laki-laki</value>
+  </data>
+  <data name="&gt;&gt;checkBoxLaki2.Name" xml:space="preserve">
+    <value>checkBoxLaki2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxLaki2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxLaki2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxLaki2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="bxThn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 304</value>
+  </data>
+  <data name="bxThn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 28</value>
+  </data>
+  <data name="bxThn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;bxThn.Name" xml:space="preserve">
+    <value>bxThn</value>
+  </data>
+  <data name="&gt;&gt;bxThn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bxThn.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;bxThn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="bxBln.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 304</value>
+  </data>
+  <data name="bxBln.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="bxBln.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;bxBln.Name" xml:space="preserve">
+    <value>bxBln</value>
+  </data>
+  <data name="&gt;&gt;bxBln.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bxBln.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;bxBln.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="bxTgl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 304</value>
+  </data>
+  <data name="bxTgl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 28</value>
+  </data>
+  <data name="bxTgl.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;bxTgl.Name" xml:space="preserve">
+    <value>bxTgl</value>
+  </data>
+  <data name="&gt;&gt;bxTgl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bxTgl.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;bxTgl.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtAlamatLengkap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 111</value>
+  </data>
+  <data name="txtAlamatLengkap.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAlamatLengkap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 62</value>
+  </data>
+  <data name="txtAlamatLengkap.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatLengkap.Name" xml:space="preserve">
+    <value>txtAlamatLengkap</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatLengkap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatLengkap.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatLengkap.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtAlamatEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 346</value>
+  </data>
+  <data name="txtAlamatEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 27</value>
+  </data>
+  <data name="txtAlamatEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatEmail.Name" xml:space="preserve">
+    <value>txtAlamatEmail</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatEmail.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtAlamatEmail.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtTempatLahir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 266</value>
+  </data>
+  <data name="txtTempatLahir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 27</value>
+  </data>
+  <data name="txtTempatLahir.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtTempatLahir.Name" xml:space="preserve">
+    <value>txtTempatLahir</value>
+  </data>
+  <data name="&gt;&gt;txtTempatLahir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTempatLahir.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtTempatLahir.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtNoHPWA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 186</value>
+  </data>
+  <data name="txtNoHPWA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 27</value>
+  </data>
+  <data name="txtNoHPWA.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtNoHPWA.Name" xml:space="preserve">
+    <value>txtNoHPWA</value>
+  </data>
+  <data name="&gt;&gt;txtNoHPWA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNoHPWA.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtNoHPWA.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtNamaLengkap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 71</value>
+  </data>
+  <data name="txtNamaLengkap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 27</value>
+  </data>
+  <data name="txtNamaLengkap.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtNamaLengkap.Name" xml:space="preserve">
+    <value>txtNamaLengkap</value>
+  </data>
+  <data name="&gt;&gt;txtNamaLengkap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNamaLengkap.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtNamaLengkap.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtNoPendaftaran.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 29</value>
+  </data>
+  <data name="txtNoPendaftaran.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 27</value>
+  </data>
+  <data name="txtNoPendaftaran.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtNoPendaftaran.Name" xml:space="preserve">
+    <value>txtNoPendaftaran</value>
+  </data>
+  <data name="&gt;&gt;txtNoPendaftaran.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNoPendaftaran.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtNoPendaftaran.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblTglLahir.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTglLahir.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTglLahir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 312</value>
+  </data>
+  <data name="lblTglLahir.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblTglLahir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 20</value>
+  </data>
+  <data name="lblTglLahir.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblTglLahir.Text" xml:space="preserve">
+    <value>Tanggal Lahir</value>
+  </data>
+  <data name="&gt;&gt;lblTglLahir.Name" xml:space="preserve">
+    <value>lblTglLahir</value>
+  </data>
+  <data name="&gt;&gt;lblTglLahir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTglLahir.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblTglLahir.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="gBoxDataPendaftar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 341</value>
+  </data>
+  <data name="gBoxDataPendaftar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 244</value>
+  </data>
+  <data name="gBoxDataPendaftar.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gBoxDataPendaftar.Text" xml:space="preserve">
+    <value>Data Pendaftar</value>
+  </data>
+  <data name="&gt;&gt;gBoxDataPendaftar.Name" xml:space="preserve">
+    <value>gBoxDataPendaftar</value>
+  </data>
+  <data name="&gt;&gt;gBoxDataPendaftar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gBoxDataPendaftar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gBoxDataPendaftar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtTglDaftar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>642, 83</value>
+  </data>
+  <data name="txtTglDaftar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 27</value>
+  </data>
+  <data name="txtTglDaftar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtTglDaftar.Name" xml:space="preserve">
+    <value>txtTglDaftar</value>
+  </data>
+  <data name="&gt;&gt;txtTglDaftar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTglDaftar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtTglDaftar.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="monthCalendar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 122</value>
+  </data>
+  <data name="monthCalendar1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;monthCalendar1.Name" xml:space="preserve">
+    <value>monthCalendar1</value>
+  </data>
+  <data name="&gt;&gt;monthCalendar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MonthCalendar, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;monthCalendar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;monthCalendar1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnShow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="btnShow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnShow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>799, 83</value>
+  </data>
+  <data name="btnShow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 29</value>
+  </data>
+  <data name="btnShow.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnShow.Text" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="&gt;&gt;btnShow.Name" xml:space="preserve">
+    <value>btnShow</value>
+  </data>
+  <data name="&gt;&gt;btnShow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnShow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnShow.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnHide.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="btnHide.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>799, 138</value>
+  </data>
+  <data name="btnHide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 29</value>
+  </data>
+  <data name="btnHide.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnHide.Text" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="&gt;&gt;btnHide.Name" xml:space="preserve">
+    <value>btnHide</value>
+  </data>
+  <data name="&gt;&gt;btnHide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHide.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnHide.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>896, 597</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Pendaftaran Siswa Baru</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

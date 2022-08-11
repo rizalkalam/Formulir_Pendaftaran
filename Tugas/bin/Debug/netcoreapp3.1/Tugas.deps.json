@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Tugas/1.0.0": {
+        "runtime": {
+          "Tugas.dll": {}
+        },
+        "resources": {
+          "zh-Hans-MO/Tugas.resources.dll": {
+            "locale": "zh-Hans-MO"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tugas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
